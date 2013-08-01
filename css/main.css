@@ -47,8 +47,22 @@ body {
     background-color: #fff;
 }
 
+#wrapper {
+    width: 222px;
+ 
+}
+
 #logo {
-    width: 152px;
+    width: 222px;
     height: 145px;
-    background: url(../img/pi_logo.png) no-repeat;
+    background: url(../img/pi_logo.png) no-repeat center;
+}
+
+#cy-info {
+    font-family: verdana;
+    text-align: center;
+    font-size: 11px;
+    line-height: 1.4em;
+    margin: 15px 0 0 0;
+    color: #333333;
 }
