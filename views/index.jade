@@ -1,5 +1,22 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  .wrapper
+    header
+      .logo
+        img(src="/images/pi-logo.png")
+        span Purpose
+          em Industries
+      .navigation
+        nav
+          ul
+            li: a(href="#") blog
+            li: a(href="#") twitter
+            li: a(href="#") facebook
+
+    .main
+      p We are a team of 4. United to build products with the aim to enrich people's lives. Our backgrounds are diverse and complementary. We embrace constant change as a fundamental rule of nature and adapt to it with continuous learning and iterations. By doing so can we achieve higher levels of mastery within our chosen crafts. To us magic unfolds when human mastery meets human collaboration.
+      p So this is the principle. And where do we stand today? At step #0.1. We are building our first product and set the fundaments. There is a lot to learn and to iterate. Trying to consciously enjoy the journey.
+
+    footer
+      p (c) 2014, WLP Software Development Ltd. (Malta), Strand Towers, Floor 2 36 The Strand, Sliema, SLM 1022, MALTA
