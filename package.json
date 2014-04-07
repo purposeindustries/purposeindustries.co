@@ -3,7 +3,12 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "makedirs": "mkdir -p images && mkdir -p stylesheets",
+    "_jade": "jade -O '{\"title\":\"Purpose Industries\"}' -o . views/index.jade",
+    "_stylus": "stylus -o stylesheets/ -I public/stylesheets/ public/stylesheets/style.styl",
+    "movestatic": "cp -R public/images/ images/",
+    "build": "npm run makedirs && npm run _jade && npm run _stylus && npm run movestatic"
   },
   "dependencies": {
     "express": "3.4.4",
