@@ -10,8 +10,8 @@
     "movestatic": "cp -R public/images/ output/images/",
     "_build": "npm run makedirs && npm run _jade && npm run _stylus && npm run movestatic",
     "gh-pages": "git clone $(git config --get remote.origin.url) output && cd output && git checkout -b gh-pages origin/gh-pages",
-    "push": "git add . && git commit -m 'publishing' && git push -u origin gh-pages",
-    "build": "npm run gh-pages && npm run _build && npm run push"
+    "push-to-remote": "git add . && git commit -m 'publishing' && git push -u origin gh-pages",
+    "build": "npm run gh-pages && npm run _build && npm run push-to-remove"
   },
   "dependencies": {
     "express": "3.4.4",
