@@ -127,19 +127,17 @@ body {
 }
 .wrapper {
   margin: auto;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
   width: 60%;
-  height: 70%;
 }
 a {
   text-decoration: none;
 }
+.divider {
+  border-top: 1px solid #ddd;
+  margin: 40px 0 20px 0;
+}
 header {
-  margin: 0 0 50px 0;
+  margin: 50px 0 50px 0;
 }
 header .logo {
   display: inline-block;
@@ -178,10 +176,39 @@ header .navigation nav ul li a {
   margin: 20px 0;
   line-height: 1.6em;
 }
+.jobs h1 {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 2.4em;
+}
+.jobs h2 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.6em;
+}
+.jobs h3 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 2.2em;
+}
+.jobs p {
+  font-size: 16px;
+  line-height: 1.4em;
+  padding: 8px 0;
+}
+.jobs ul {
+  line-height: 1.6em;
+}
+.jobs ul li {
+  margin-left: 20px;
+}
+.jobs .skills {
+  margin-top: 10px;
+}
 footer {
   font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: bold;
-  padding: 20px 0px;
+  padding: 30px 0px;
 }
 footer p {
   font-size: 13px;
