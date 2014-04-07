@@ -1,0 +1,244 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+body {
+  font-family: "ff-meta-serif-web-pro", serif;
+  color: #333;
+}
+.wrapper {
+  margin: auto;
+  width: 60%;
+}
+a {
+  text-decoration: none;
+}
+.divider {
+  border-top: 1px solid #ddd;
+  margin: 40px 0 20px 0;
+}
+header {
+  margin: 50px 0 50px 0;
+}
+header .logo {
+  display: inline-block;
+}
+header img {
+  display: inline-block;
+}
+header .cy-name {
+  font-size: 24px;
+  font-family: "ff-enzo-web", sans-serif;
+  font-weight: 700;
+  display: inline-block;
+  padding: 22px 18px;
+  vertical-align: top;
+}
+header .cy-name em {
+  font-weight: 300;
+}
+header .navigation {
+  display: none;
+  vertical-align: top;
+  margin-top: 20px;
+  float: right;
+}
+header .navigation nav ul li {
+  display: inline-block;
+}
+header .navigation nav ul li a {
+  display: block;
+  padding: 8px 14px;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+.main p {
+  font-size: 20px;
+  margin: 20px 0;
+  line-height: 1.6em;
+}
+.jobs h1 {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 2.4em;
+}
+.jobs h2 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.6em;
+}
+.jobs h3 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 2.2em;
+}
+.jobs p {
+  font-size: 16px;
+  line-height: 1.4em;
+  padding: 8px 0;
+}
+.jobs ul {
+  line-height: 1.6em;
+}
+.jobs ul li {
+  margin-left: 20px;
+}
+.jobs .skills {
+  margin-top: 10px;
+}
+footer {
+  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: bold;
+  padding: 30px 0px;
+}
+footer p {
+  font-size: 13px;
+  color: #999;
+  line-height: 1.5em;
+}
+@media (max-width: 768px) {
+  .wrapper {
+    width: 70%;
+    height: 70%;
+  }
+}
+@media (max-width: 610px) {
+  .wrapper {
+    width: 80%;
+    height: 80%;
+  }
+}
+@media (max-width: 480px) {
+  .wrapper {
+    width: 90%;
+    height: 90%;
+  }
+  .wrapper header {
+    margin: 0 0 30px 0;
+  }
+  .wrapper .cy-name {
+    font-size: 22px;
+  }
+  .wrapper .main p {
+    font-size: 18px;
+  }
+}
