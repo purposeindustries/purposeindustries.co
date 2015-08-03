@@ -11,7 +11,7 @@
     "_build": "npm run makedirs && npm run _jade && npm run _stylus && npm run movestatic",
     "gh-pages": "git clone $(git config --get remote.origin.url) output && cd output && git checkout -b gh-pages origin/gh-pages",
     "push-to-remote": "git add . && git commit -m 'publishing' && git push -u origin gh-pages",
-    "naked-build": "npm run gh-pages && npm run _build && npm run push-to-remove",
+    "naked-build": "npm run gh-pages && npm run _build && npm run push-to-remote",
     "build": "rm -rf output && npm run naked-build && cd output && git add . && git commit -m 'deploy' && git push -u origin gh-pages"
   },
   "dependencies": {
