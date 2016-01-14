@@ -220,6 +220,14 @@ header .navigation nav ul li a {
 .jobs a.apply:hover {
   background: #1abc9c;
 }
+.hiring {
+  background-color: #16a085;
+  width: 100%;
+  text-align: center;
+  display: block;
+  padding: 15px 0;
+  color: #fff;
+}
 footer {
   font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: bold;
